@@ -6,7 +6,7 @@
           </div>
       </div>
       <div class="header-left">
-          <div class="input-group icons">
+          {{-- <div class="input-group icons">
               <div class="input-group-prepend">
                   <span class="input-group-text bg-transparent border-0 pr-2 pr-sm-3" id="basic-addon1"><i class="mdi mdi-magnify"></i></span>
               </div>
@@ -16,11 +16,11 @@
                     <input type="text" class="form-control" placeholder="Search">
                   </form>
               </div>
-          </div>
+          </div> --}}
       </div>
       <div class="header-right">
           <ul class="clearfix">
-              <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+              {{-- <li class="icons dropdown" ><a href="javascript:void(0)" data-toggle="dropdown">
                       <i class="mdi mdi-email-outline"></i>
                       <span class="badge gradient-1 badge-pill badge-primary">3</span>
                   </a>
@@ -54,7 +54,7 @@
                       </div>
                   </div>
               </li>
-              <li class="icons dropdown"><a href="javascript:void(0)" data-toggle="dropdown">
+              <li class="icons dropdown" ><a href="javascript:void(0)" data-toggle="dropdown">
                       <i class="mdi mdi-bell-outline"></i>
                       <span class="badge badge-pill gradient-2 badge-primary">3</span>
                   </a>
@@ -85,7 +85,7 @@
                           </ul>
                       </div>
                   </div>
-              </li>
+              </li> --}}
               <li class="icons dropdown d-none d-md-flex">
                   <a href="javascript:void(0)" class="log-user" data-toggle="dropdown">
                       <span>{{ auth()->user()->email }}</span><i class="fa fa-angle-down f-s-14" aria-hidden="true"></i>

@@ -63,7 +63,7 @@
 <body>
     <nav style="z-index: 99;" class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100 py-3">
         <div class="container-fluid px-4 px-lg-5">
-            <a class="navbar-brand" href="/dashboard"><img src="{{asset('../img/spero-logo-removebg-preview-edit.png')}} " class="w-75 me-0" alt=""></a>
+            <a class="navbar-brand" href="/dashboard"><img src="{{asset('../img/logo.png')}} " class="w-75 me-0" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -73,16 +73,25 @@
                         <a class="nav-link" href="/dashboard">Materi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/daftarLowongan">Daftar Lowongan</a>
+                        <a class="nav-link" href="#">Kuesioner</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Another Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    {{-- <li class="nav-item">
+                        <a class="nav-link" href="/daftarLowongan">Daftar Lowongan</a>
+                    </li> --}}
                 </ul>
-                <div class="search me-5">
+                {{-- <div class="search me-5">
                     <form class="d-flex mt-2 ">
                         <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-none btn-search" type="submit"><img
                                 src="{{asset('../img/search-icon.png')}}" alt=""></button>
                     </form>
-                </div>
+                </div> --}}
                 <div class="notification d-flex align-items-center mt-4 mt-lg-0">
                     <li class="nav-item dropdown" style="list-style: none; ">
                         <a class="nav-link dropdown-toggle dropdown-news" href="#"
@@ -101,7 +110,7 @@
                                 <a class="dropdown-item" href="">
                                     <div class="news d-flex">
                                         <div class="news__left">
-                                            <p class="mb-0">Materi Kimia Segera Dimulai pada pukul 10:00 WIB</p>
+                                            <p class="mb-0">Materi UMKM Segera Dimulai pada pukul 10:00 WIB</p>
                                         </div>
                                         <div class="news__right">
                                             <img src="{{asset('../img/Ellipse-news.png')}}" alt="">
@@ -114,7 +123,7 @@
                                 <a class="dropdown-item" href="">
                                     <div class="news d-flex">
                                         <div class="news__left">
-                                            <p class="mb-0">Materi Kimia Segera Dimulai pada pukul 10:00 WIB</p>
+                                            <p class="mb-0">Materi UMKM Segera Dimulai pada pukul 10:00 WIB</p>
                                         </div>
                                         <div class="news__right">
                                             <img src="{{asset('../img/Ellipse-news.png')}}" alt="">
@@ -127,7 +136,7 @@
                                 <a class="dropdown-item" href="">
                                     <div class="news d-flex">
                                         <div class="news__left">
-                                            <p class="mb-0">Materi Kimia Segera Dimulai pada pukul 10:00 WIB</p>
+                                            <p class="mb-0">Materi UMKM Segera Dimulai pada pukul 10:00 WIB</p>
                                         </div>
                                         <div class="news__right">
                                             <img src="{{asset('../img/Ellipse-news.png')}}" alt="">

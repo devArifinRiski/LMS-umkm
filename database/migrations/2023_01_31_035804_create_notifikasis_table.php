@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('notifikasis', function (Blueprint $table) {
             $table->id();
             $table->string('judul_notifikasi');
-            $table->string('keterangan');
+            $table->longText('keterangan');
             $table->date('tanggal');
             $table->string('status_aktif')->default(1);
             $table->string('created_by')->nullable();

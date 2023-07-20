@@ -63,7 +63,7 @@
                 <h2 class="mb-4">Pengumuman</h2>
                 <div class="pengumuman__content mt-2">
                     <div class="pc__content mt-2" id="place__notifikasi">
-                        {{-- @foreach ($Notifikasi as $item)
+                        @foreach ($Notifikasi as $item)
                             <h4>{{$item->judul_notifikasi}}</h4>
                         <div class="pcc__c">
                             <div class="c-left">
@@ -73,7 +73,7 @@
                                 <p>{{$item->tanggal}}</p>
                             </div>
                         </div>
-                        @endforeach --}}
+                        @endforeach
 
 
                     </div>
@@ -104,7 +104,7 @@
                                             <div class="tcc__left"><img src="{{ asset('../img/matematica-icon.png')}}  "
                                                     alt=""></div>
                                             <div class="tcc__right">
-                                                <h3>{{$item->judul_materi}}</h3>
+                                                <h3>{{$item->nama}}</h3>
                                                 <p>07:00 - 08.40 WIB</p>
                                             </div>
                                         </div>

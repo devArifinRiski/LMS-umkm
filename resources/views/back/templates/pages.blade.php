@@ -44,8 +44,9 @@
                 <a href="index.html">
                     <b class="logo-abbr"><img src="{{ asset('back/images/logo.png') }}" alt=""></b>
                     <span class="logo-compact"><img src="{{ asset('back/images/logo-compact.png') }}" alt=""></span>
-                    <span class="brand-title">
-                        <img src="{{ asset('back/images/logo-text.png') }}" alt="">
+                    <span class="brand-title text-white">
+                        Admin LMS
+                        <!-- <img src="{{ asset('back/images/logo-text.png') }}" alt=""> -->
                     </span>
                 </a>
             </div>
